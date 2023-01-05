@@ -1,0 +1,110 @@
+/* font-family: "Open Sans", sans-serif; 
+400, 700 */
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+p,
+li,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-size: 1.8rem;
+}
+.background {
+ background: url("../img/bg-hero-desktop.svg") center center no-repeat;
+ background-size: cover;
+
+ background-color: hsl(193, 100%, 96%);
+}
+
+/* HEADER */
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px;
+}
+
+.header .header-logo {
+ margin: 20px 50px;
+ width: 200px;
+}
+
+.header .menu ul li {
+ border-radius: 30px;
+ padding: 15px 50px;
+ font-weight: 400;
+ margin-right: 50px;
+ box-shadow: 0.5px 0.5px 4px hsl(208, 11%, 55%);
+
+ background-color: white;
+}
+
+/* HERO */
+.hero {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60vh;
+ padding: 0px 100px;
+ gap: 50px;
+}
+
+.hero .description h1 {
+ font-size: 3rem;
+ max-width: 500px;
+ margin-bottom: 30px;
+}
+
+.hero .description p {
+ max-width: 850px;
+ margin-bottom: 50px;
+ font-weight: 400;
+}
+
+.hero .description a {
+ font-size: 1.5rem;
+ font-weight: 700;
+ padding: 15px 50px;
+ border-radius: 30px;
+
+ color: hsl(193, 100%, 96%);
+ background-color: hsl(322, 100%, 66%);
+}
+
+.main {
+ padding: 200px 100px;
+}
+
+.container-1 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ padding: 100px;
+ border-radius: 10px;
+
+ box-shadow: 0.5px 0.5px 4px hsl(208, 11%, 55%);
+}
+
+.container-1 .info h2 {
+ margin-bottom: 10px;
+}
+
+.container-1 .info p {
+ font-weight: 700;
+
+ color:  hsl(208, 11%, 55%);
+}
