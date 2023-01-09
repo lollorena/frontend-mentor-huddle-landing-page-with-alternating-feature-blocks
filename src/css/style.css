@@ -13,6 +13,7 @@ body {
 .bg.bg--image {
   background: url("../img/bg-hero-desktop.svg") center center no-repeat;
   background-size: cover;
+  
   background-color: hsl(193, 100%, 96%);
 }
 
@@ -36,6 +37,7 @@ body {
   background-color: #fff;
 }
 
+/* HERO */
 .hero {
   display: flex;
   justify-content: center;
@@ -64,4 +66,121 @@ body {
 
   color: #fff;
   background-color: hsl(322, 100%, 66%);
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10%;
+}
+
+.about .about__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5% 2% 5% 10%;
+
+  box-shadow: 0px 0px 10px rgb(223, 215, 215);
+  margin-bottom: 40px;
+}
+
+.about .about__info {
+  margin-right: 200px;
+}
+
+.about .about__title {
+  margin-bottom: 10px;
+}
+
+.about .about__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a9a9a9;
+}
+
+.about .about__item:nth-child(2) {
+  padding: 5% 2% 5% 10%;
+}
+
+.about .about__item:nth-child(2) .about__info {
+  margin-right: 0;
+  margin-left: 200px;
+}
+
+.card {
+  position: absolute;
+  text-align: center;
+  bottom: -150px;
+  z-index: 1;
+  margin: 0 20%;
+  padding: 5% 10%;
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 10px rgb(223, 215, 215);
+  background-color: #fff;
+}
+
+.card .card__title {
+  margin-bottom: 40px;
+}
+
+.card .card__btn {
+  padding: 20px 100px;
+  border-radius: 30px;
+
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  height: 50vh;
+  padding: 20% 10% 10% 10%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #fff;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer .footer__item-1 .footer__item {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footer__item-1 .footer__image-logo {
+  margin-bottom: 30px;
+}
+
+.footer .footer__item-1 .footer__item .footer__paragraph {
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.footer .footer__item-2,
+.footer__item-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer__item-2 a,
+.footer__item-3 a {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer .footer__social-medias i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #fff;
 }

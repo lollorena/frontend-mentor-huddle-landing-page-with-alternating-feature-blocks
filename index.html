@@ -5,13 +5,18 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
  <link rel="stylesheet" href="src/css/style.css">
  <link rel="stylesheet" href="src/css/responsive.css">
  <link rel="stylesheet" href="src/css/reset.css">
 
+ <!-- LINK GOOGLE FONTS -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+ <!-- LINK FONT-AWESOME -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
  <title>Huddle landing page</title>
 </head>
@@ -23,7 +28,7 @@
   <!-- HEADER -->
   <header class="header">
    <div class="header__image-logo">
-    <img src="/src/img/logo.svg" alt="huddle">
+    <img src="/src/img/logo-1.svg" alt="huddle">
    </div>
 
    <nav class="menu">
@@ -51,67 +56,91 @@
 
  <!-- ABOUT -->
  <section class="about">
+
   <div class="about__item">
    <div class="about__info">
-    <h2 class="info__title"> Grow Together</h2>
-    <p class="info__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+    <h2 class="about__title">Grow Together</h2>
+    <p class="about__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
    </div>
    <div class="about__image">
     <img src="/src/img/illustration-grow-together.svg">
    </div>
   </div>
- </section>
 
- <!-- CARD -->
- <section class="card">
-  <h2 class="card__title"></h2>
-  <a href="#" class="card__btn"></a>
+  <div class="about__item">
+   <div class="about__image">
+    <img src="src/img/illustration-flowing-conversation.svg">
+   </div>
+   <div class="about__info">
+    <h2 class="about__title">Flowing Conversations</h2>
+    <p class="about__paragraph">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+   </div>
+  </div>
+
+  <div class="about__item">
+   <div class="about__info">
+    <h2 class="about__title">Your Users</h2>
+    <p class="about__paragraph">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+   </div>
+   <div class="about__image">
+    <img src="src/img/illustration-your-users.svg">
+   </div>
+  </div>
+
+  <div class="card">
+   <h2 class="card__title"> Ready To Build Your Community?</h2>
+   <a href="#" class="card__btn">Get Started For Free</a>
+  </div>
  </section>
 
  <!-- FOOTER -->
  <footer class="footer">
-  <img src="#" alt="huddle" class="footer__image-logo">
 
-  <div class="footer__info-1">
+  <div class="footer__item-1">
+   <img src="src/img/logo-2.svg" alt="huddle" class="footer__image-logo">
    <div class="footer__item">
-    <img src="#" class="footer__image">
-    <p class="footer__paragraph"></p>
+    <i class="fa-solid fa-location-dot"></i>
+    <p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
    </div>
 
    <div class="footer__item">
-    <img src="#" class="footer__image">
-    <p class="footer__paragraph"></p>
+    <i class="fa-solid fa-phone-volume"></i>
+    <p class="footer__paragraph">+1-543-123-4567</p>
    </div>
 
    <div class="footer__item">
-    <img src="#" class="footer__image">
-    <p class="footer__paragraph"></p>
+    <i class="fa-solid fa-envelope"></i>
+    <p class="footer__paragraph">example@huddle.com</p>
    </div>
   </div>
 
-  <div class="footer__info-2">
-   <p></p>
-   <p></p>
-   <p></p>
-   <p></p>
-   <p></p>
-   <p></p>
+  <div class="footer__item-2">
+   <a href="#">About Us</a>
+   <a href="#">What We Do</a>
+   <a href="#">FAQ</a>
+  </div>
+
+  <div class="footer__item-3">
+   <a href="#">Career</a>
+   <a href="#">Blog</a>
+   <a href="#">Contact</a>
   </div>
 
   <div class="footer__social-medias">
-   <a href="#" class="footer__facebook">
-    <i></i>
+   <a href="#">
+    <i class="fab fa-facebook"></i>
    </a>
 
-   <a href="#" class="footer__twitter">
-    <i></i>
+   <a href="#">
+    <i class="fab fa-twitter"></i>
    </a>
 
-   <a href="#" class="footer__instagram">
-    <i></i>
+   <a href="#">
+    <i class="fab fa-instagram"></i>
    </a>
   </div>
- </footer>
 
+ </footer>
 </body>
+
 </html>
