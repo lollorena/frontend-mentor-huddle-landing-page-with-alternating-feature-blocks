@@ -55,7 +55,7 @@
   }
 }
 
-@media (max-width: 1002px) {
+@media (max-width: 1013px) {
  .hero {
   flex-direction: column;
   text-align: center;
@@ -79,13 +79,13 @@
 }
 
 .card .card__title {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 30px;
 }
 
 .card .card__btn {
-  padding: 10px 25px;
-  font-size: 15px;
+  padding: 15px 30px;
+  font-size: 18px;
 }
 
 .footer {

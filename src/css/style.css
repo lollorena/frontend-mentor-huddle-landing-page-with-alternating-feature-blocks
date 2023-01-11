@@ -63,9 +63,14 @@ body {
   font-size: 15px;
   padding: 20px 50px;
   border-radius: 30px;
+  transition: 0.3s;
 
   color: #fff;
   background-color: hsl(322, 100%, 66%);
+}
+
+.hero__info .hero__btn:hover {
+  opacity: 60%;
 }
 
 /* ABOUT */
@@ -136,6 +141,11 @@ body {
 
   color: #fff;
   background-color: hsl(322, 100%, 66%);
+  transition: 0.3s;
+}
+
+.card .card__btn:hover {
+  opacity: 60%;
 }
 
 /* FOOTER */
@@ -177,10 +187,22 @@ body {
 .footer__item-3 a {
   margin-bottom: 10px;
   color: #fff;
+  transition: 0.3s;
+}
+
+.footer .footer__item-2 a:hover,
+.footer__item-3 a:hover {
+  text-decoration: underline;
 }
 
 .footer .footer__social-medias i {
   font-size: 25px;
   margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s;
   color: #fff;
+}
+
+.footer .footer__social-medias i:hover {
+  color: hsl(322, 100%, 66%);
 }
